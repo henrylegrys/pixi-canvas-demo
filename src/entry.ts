@@ -22,12 +22,7 @@ async function create(canvas) {
     await spritesheet.parse();
 
     const tex = spritesheet.textures['loading/images/loading-bar.png'];
-    tex.rotate = 2;
     const sprite = new Sprite(tex);
-    (window as any).temp0 = sprite;
-
-    console.log(sprite.width);
-    console.log(sprite.texture.baseTexture.isPowerOfTwo);
 
     sprite.anchor.set(0, 0); // default, but here for demonstration
     sprite.position.set(200, 2);
