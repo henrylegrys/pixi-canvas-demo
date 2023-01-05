@@ -4,9 +4,9 @@
   "description": "",
   "main": "src/entry.ts",
   "dependencies": {
-    "@pixi/assets": "file:../../projects/pixijs/packages/assets",
-    "@pixi/basis": "file:../../projects/pixijs/packages/basis",
-    "pixi.js-legacy": "file:../../projects/pixijs/bundles/pixi.js-legacy"
+    "@pixi/assets": "6.5.8",
+    "@pixi/basis": "6.5.8",
+    "pixi.js-legacy": "6.5.8"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
