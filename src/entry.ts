@@ -3,7 +3,7 @@ import {Assets} from "@pixi/assets";
 
 async function create(canvas) {
     const app = new Application({ forceCanvas: canvas, resolution: 1 });
-    app.view.style = "margin: 0 5px";
+    (app.view.style as any) = "margin: 0 5px";
     document.body.appendChild(app.view as any);
     (window as any).app = app;
 
