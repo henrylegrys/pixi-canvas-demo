@@ -1,0 +1,33 @@
+{
+    "frames": {
+        "loading/images/loading-bar.png": {
+            "frame": {
+                "x": 12,
+                "y": 12,
+                "w": 4,
+                "h": 24
+            },
+            "rotated": true,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 4,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 4,
+                "h": 24
+            }
+        }
+    },
+    "meta": {
+        "image": "atlas-bar-24.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 48,
+            "h": 48
+        },
+        "scale": 4
+    }
+}
